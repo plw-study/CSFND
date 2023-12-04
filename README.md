@@ -19,13 +19,17 @@ Besides, the meta-data can be downloaded from the following project:
 
 The python version is python-3.7.9. The detailed version of some packages is available in requirements.txt. You can install all the required packages using the following command:
 
-``` pip install -r requirements.txt ```
+``` 
+$ pip install -r requirements.txt
+```
 
 # Running the code
 
 The run.py is the main file for running the code.
 
-``` python run.py ```
+``` 
+$ python run.py
+```
 
 # Reference
 
