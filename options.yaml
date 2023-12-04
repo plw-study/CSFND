@@ -1,0 +1,27 @@
+twitter:  # english dataset
+    bert_model: bert-base-uncased
+    vgg_model: vgg19
+    fine_tune_bert: False
+    fine_tune_vgg: False
+    token_length: 25
+    learning_rate: 0.0005
+weibo:  # chinese dataset
+    bert_model: bert-base-chinese
+    vgg_model: vgg19
+    fine_tune_bert: False
+    fine_tune_vgg: False
+    token_length: 160
+    learning_rate: 0.001
+
+flat_dim_t: 768  # 25*768
+bert_dim_t: 768
+flat_dim_v: 4096
+mid_dim_t: 128
+mid_dim_v: 128
+hidden_dim_t: 512
+hidden_dim_v: 512
+out_dim_t: 128
+out_dim_v: 128
+activation_t: relu
+activation_v: relu
+dropout: 0.4
