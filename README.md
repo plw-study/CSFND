@@ -17,10 +17,11 @@ Besides, the meta-data can be downloaded from the following project:
 
 # Requirements
 
+It is recommended to create a conda virtual environment to run the code.
 The python version is python-3.7.9. The detailed version of some packages is available in requirements.txt. You can install all the required packages using the following command:
 
 ``` 
-$ pip install -r requirements.txt
+$ conda install --yes --file requirements.txt
 ```
 
 # Running the code
